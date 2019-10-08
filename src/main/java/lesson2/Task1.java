@@ -20,5 +20,11 @@ package lesson2;
  */
 
 public class Task1 {
-
+    public static void main(String[] args) {
+        PersonManager pm = new PersonManager();
+        Person person = pm.createPerson(28, "  eugene o Belov  ");
+        System.out.println(person.getName());
+        System.out.println(person.getAgeGroup());
+    }
 }
+
